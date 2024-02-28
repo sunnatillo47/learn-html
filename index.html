@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="reg_place">
+
+        <div class="reg_title">
+            <h1>Registration</h1>
+        </div>
+
+        <div class="reg_form">
+            <form action="index.php">
+
+                <!-- INPUT FORM -->
+                <div class="reg_contenier">
+                    <div class="reg_form" id="reg_form_size">
+                        <label for="fname">Full Name</label><br>
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+            
+                    <div class="reg_form" id="reg_form_size2">
+                        <label for="username">Username</label><br>
+                        <input type="text" placeholder="Enter your username">
+                    </div>
+                </div>
+
+                <div class="reg_contenier">
+                    <div class="reg_form" id="reg_form_size">
+                        <label for="email">Email</label><br>
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+    
+                    <div class="reg_form" id="reg_form_size2">
+                        <label for="phone">Phone</label><br>
+                        <input type="tel" placeholder="Enter your phone number">
+                    </div>
+                </div>
+
+               <div>
+                    <div class="reg_form" id="reg_form_size">
+                        <label for="email">Password</label><br>
+                        <input type="password" placeholder="Enter your password">
+                    </div>
+
+                    <div class="reg_form" id="reg_form_size2">
+                        <label for="phone">Confirm Password</label><br>
+                        <input type="password" placeholder="Confirm password">
+                    </div>
+               </div>
+
+            </form>
+        </div>
+
+        <!-- SELECT FROM -->
+        <div class="reg_select_form">
+            <h2 class="reg_gender_title">Gender</h2>
+
+            <form action="index.php">
+                <div class="first_sel_form">
+                    <input type="radio" name="gender">
+                    <label for="male">Male</label>
+                
+                    <input type="radio" name="gender">
+                    <label for="famale">Famale</label>
+
+                    <input type="radio" name="gender">
+                    <label for="notsay">Not Say</label>
+                </div>
+            </form>
+            <!-- Register Button -->
+            <div class="form_btn">
+                <button>Register</button>
+            </div>
+        </div>
+
+          
+    </div>
+</body>
+</html>
